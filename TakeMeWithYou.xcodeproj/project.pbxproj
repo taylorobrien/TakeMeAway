@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18685B418DE284900124E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B318DE284900124E83 /* Foundation.framework */; };
+		B18685B618DE284900124E83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B518DE284900124E83 /* CoreGraphics.framework */; };
+		B18685B818DE284900124E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B718DE284900124E83 /* UIKit.framework */; };
+		B18685BE18DE284900124E83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18685BC18DE284900124E83 /* InfoPlist.strings */; };
+		B18685C018DE284900124E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685BF18DE284900124E83 /* main.m */; };
+		B18685C418DE284900124E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685C318DE284900124E83 /* AppDelegate.m */; };
+		B18685C718DE284900124E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18685C518DE284900124E83 /* Main.storyboard */; };
+		B18685CA18DE284900124E83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685C918DE284900124E83 /* ViewController.m */; };
+		B18685CC18DE284900124E83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18685CB18DE284900124E83 /* Images.xcassets */; };
+		B18685D318DE284900124E83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685D218DE284900124E83 /* XCTest.framework */; };
+		B18685D418DE284900124E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B318DE284900124E83 /* Foundation.framework */; };
+		B18685D518DE284900124E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B718DE284900124E83 /* UIKit.framework */; };
+		B18685DD18DE284900124E83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18685DB18DE284900124E83 /* InfoPlist.strings */; };
+		B18685DF18DE284900124E83 /* TakeMeWithYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685DE18DE284900124E83 /* TakeMeWithYouTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18685D618DE284900124E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18685A818DE284900124E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18685AF18DE284900124E83;
+			remoteInfo = TakeMeWithYou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18685B018DE284900124E83 /* TakeMeWithYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeMeWithYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18685B318DE284900124E83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B18685B518DE284900124E83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B18685B718DE284900124E83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B18685BB18DE284900124E83 /* TakeMeWithYou-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TakeMeWithYou-Info.plist"; sourceTree = "<group>"; };
+		B18685BD18DE284900124E83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B18685BF18DE284900124E83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B18685C118DE284900124E83 /* TakeMeWithYou-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TakeMeWithYou-Prefix.pch"; sourceTree = "<group>"; };
+		B18685C218DE284900124E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B18685C318DE284900124E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B18685C618DE284900124E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18685C818DE284900124E83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B18685C918DE284900124E83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B18685CB18DE284900124E83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B18685D118DE284900124E83 /* TakeMeWithYouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeMeWithYouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18685D218DE284900124E83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B18685DA18DE284900124E83 /* TakeMeWithYouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TakeMeWithYouTests-Info.plist"; sourceTree = "<group>"; };
+		B18685DC18DE284900124E83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B18685DE18DE284900124E83 /* TakeMeWithYouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeMeWithYouTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18685AD18DE284900124E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18685B618DE284900124E83 /* CoreGraphics.framework in Frameworks */,
+				B18685B818DE284900124E83 /* UIKit.framework in Frameworks */,
+				B18685B418DE284900124E83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18685CE18DE284900124E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18685D318DE284900124E83 /* XCTest.framework in Frameworks */,
+				B18685D518DE284900124E83 /* UIKit.framework in Frameworks */,
+				B18685D418DE284900124E83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18685A718DE284900124E83 = {
+			isa = PBXGroup;
+			children = (
+				B18685B918DE284900124E83 /* TakeMeWithYou */,
+				B18685D818DE284900124E83 /* TakeMeWithYouTests */,
+				B18685B218DE284900124E83 /* Frameworks */,
+				B18685B118DE284900124E83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18685B118DE284900124E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18685B018DE284900124E83 /* TakeMeWithYou.app */,
+				B18685D118DE284900124E83 /* TakeMeWithYouTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18685B218DE284900124E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18685B318DE284900124E83 /* Foundation.framework */,
+				B18685B518DE284900124E83 /* CoreGraphics.framework */,
+				B18685B718DE284900124E83 /* UIKit.framework */,
+				B18685D218DE284900124E83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B18685B918DE284900124E83 /* TakeMeWithYou */ = {
+			isa = PBXGroup;
+			children = (
+				B18685C218DE284900124E83 /* AppDelegate.h */,
+				B18685C318DE284900124E83 /* AppDelegate.m */,
+				B18685C518DE284900124E83 /* Main.storyboard */,
+				B18685C818DE284900124E83 /* ViewController.h */,
+				B18685C918DE284900124E83 /* ViewController.m */,
+				B18685CB18DE284900124E83 /* Images.xcassets */,
+				B18685BA18DE284900124E83 /* Supporting Files */,
+			);
+			path = TakeMeWithYou;
+			sourceTree = "<group>";
+		};
+		B18685BA18DE284900124E83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18685BB18DE284900124E83 /* TakeMeWithYou-Info.plist */,
+				B18685BC18DE284900124E83 /* InfoPlist.strings */,
+				B18685BF18DE284900124E83 /* main.m */,
+				B18685C118DE284900124E83 /* TakeMeWithYou-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B18685D818DE284900124E83 /* TakeMeWithYouTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18685DE18DE284900124E83 /* TakeMeWithYouTests.m */,
+				B18685D918DE284900124E83 /* Supporting Files */,
+			);
+			path = TakeMeWithYouTests;
+			sourceTree = "<group>";
+		};
+		B18685D918DE284900124E83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18685DA18DE284900124E83 /* TakeMeWithYouTests-Info.plist */,
+				B18685DB18DE284900124E83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18685AF18DE284900124E83 /* TakeMeWithYou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18685E218DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYou" */;
+			buildPhases = (
+				B18685AC18DE284900124E83 /* Sources */,
+				B18685AD18DE284900124E83 /* Frameworks */,
+				B18685AE18DE284900124E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeMeWithYou;
+			productName = TakeMeWithYou;
+			productReference = B18685B018DE284900124E83 /* TakeMeWithYou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18685D018DE284900124E83 /* TakeMeWithYouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18685E518DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYouTests" */;
+			buildPhases = (
+				B18685CD18DE284900124E83 /* Sources */,
+				B18685CE18DE284900124E83 /* Frameworks */,
+				B18685CF18DE284900124E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18685D718DE284900124E83 /* PBXTargetDependency */,
+			);
+			name = TakeMeWithYouTests;
+			productName = TakeMeWithYouTests;
+			productReference = B18685D118DE284900124E83 /* TakeMeWithYouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18685A818DE284900124E83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RocioSPearlHacks;
+				TargetAttributes = {
+					B18685D018DE284900124E83 = {
+						TestTargetID = B18685AF18DE284900124E83;
+					};
+				};
+			};
+			buildConfigurationList = B18685AB18DE284900124E83 /* Build configuration list for PBXProject "TakeMeWithYou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18685A718DE284900124E83;
+			productRefGroup = B18685B118DE284900124E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18685AF18DE284900124E83 /* TakeMeWithYou */,
+				B18685D018DE284900124E83 /* TakeMeWithYouTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18685AE18DE284900124E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18685CC18DE284900124E83 /* Images.xcassets in Resources */,
+				B18685BE18DE284900124E83 /* InfoPlist.strings in Resources */,
+				B18685C718DE284900124E83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18685CF18DE284900124E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18685DD18DE284900124E83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18685AC18DE284900124E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18685CA18DE284900124E83 /* ViewController.m in Sources */,
+				B18685C418DE284900124E83 /* AppDelegate.m in Sources */,
+				B18685C018DE284900124E83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18685CD18DE284900124E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18685DF18DE284900124E83 /* TakeMeWithYouTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18685D718DE284900124E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18685AF18DE284900124E83 /* TakeMeWithYou */;
+			targetProxy = B18685D618DE284900124E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18685BC18DE284900124E83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18685BD18DE284900124E83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B18685C518DE284900124E83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18685C618DE284900124E83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18685DB18DE284900124E83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18685DC18DE284900124E83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18685E018DE284900124E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B18685E118DE284900124E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18685E318DE284900124E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeWithYou-Prefix.pch";
+				INFOPLIST_FILE = "TakeMeWithYou/TakeMeWithYou-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B18685E418DE284900124E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeWithYou-Prefix.pch";
+				INFOPLIST_FILE = "TakeMeWithYou/TakeMeWithYou-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B18685E618DE284900124E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TakeMeWithYou.app/TakeMeWithYou";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeWithYou-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TakeMeWithYouTests/TakeMeWithYouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B18685E718DE284900124E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TakeMeWithYou.app/TakeMeWithYou";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeWithYou-Prefix.pch";
+				INFOPLIST_FILE = "TakeMeWithYouTests/TakeMeWithYouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18685AB18DE284900124E83 /* Build configuration list for PBXProject "TakeMeWithYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18685E018DE284900124E83 /* Debug */,
+				B18685E118DE284900124E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18685E218DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18685E318DE284900124E83 /* Debug */,
+				B18685E418DE284900124E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B18685E518DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18685E618DE284900124E83 /* Debug */,
+				B18685E718DE284900124E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18685A818DE284900124E83 /* Project object */;
+}
