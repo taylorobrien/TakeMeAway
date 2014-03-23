@@ -18,7 +18,6 @@
 		B18685D418DE284900124E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B318DE284900124E83 /* Foundation.framework */; };
 		B18685D518DE284900124E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B718DE284900124E83 /* UIKit.framework */; };
 		B18685EA18DE365600124E83 /* Countries.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685E918DE365600124E83 /* Countries.m */; };
-		B18685EC18DE47F900124E83 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18685EB18DE47F900124E83 /* music.mp3 */; };
 		B18685F018DE61CE00124E83 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685EF18DE61CE00124E83 /* Social.framework */; };
 		B18685F318DE6A4A00124E83 /* MapOfPlaceVisitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685F218DE6A4A00124E83 /* MapOfPlaceVisitedViewController.m */; };
 		B1D9426318DE9C980049FEE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685BF18DE284900124E83 /* main.m */; };
@@ -29,6 +28,7 @@
 		B1D9427618DEEBF40049FEE8 /* MyAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D9427518DEEBF40049FEE8 /* MyAnnotations.m */; };
 		B1D9428418DF28C40049FEE8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D9428318DF28C40049FEE8 /* Icon.png */; };
 		B1D9428718DF32E30049FEE8 /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D9428618DF32E30049FEE8 /* TrendingViewController.m */; };
+		DDEF187318DF5882007C3AD5 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDEF187218DF5882007C3AD5 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,6 @@
 		B18685D218DE284900124E83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B18685E818DE365600124E83 /* Countries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countries.h; sourceTree = "<group>"; };
 		B18685E918DE365600124E83 /* Countries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Countries.m; sourceTree = "<group>"; };
-		B18685EB18DE47F900124E83 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../music.mp3; sourceTree = "<group>"; };
 		B18685ED18DE481D00124E83 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B18685EF18DE61CE00124E83 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		B18685F118DE6A4A00124E83 /* MapOfPlaceVisitedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOfPlaceVisitedViewController.h; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		B1D9428318DF28C40049FEE8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B1D9428518DF32E30049FEE8 /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewController.h; sourceTree = "<group>"; };
 		B1D9428618DF32E30049FEE8 /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewController.m; sourceTree = "<group>"; };
+		DDEF187218DF5882007C3AD5 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = "TakeMeWyoupics andMusic/music.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		B18685A718DE284900124E83 = {
 			isa = PBXGroup;
 			children = (
-				B18685EB18DE47F900124E83 /* music.mp3 */,
+				DDEF187218DF5882007C3AD5 /* music.mp3 */,
 				B18685B918DE284900124E83 /* TakeMeAway */,
 				B18685B218DE284900124E83 /* Frameworks */,
 				B18685B118DE284900124E83 /* Products */,
@@ -248,8 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B18685EC18DE47F900124E83 /* music.mp3 in Resources */,
 				B18685CC18DE284900124E83 /* Images.xcassets in Resources */,
+				DDEF187318DF5882007C3AD5 /* music.mp3 in Resources */,
 				B1D9428418DF28C40049FEE8 /* Icon.png in Resources */,
 				B18685BE18DE284900124E83 /* InfoPlist.strings in Resources */,
 				B1D9426B18DED0840049FEE8 /* Main.storyboard in Resources */,
