@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5DD19D4A-BDD6-4997-A3BA-28DE26636D67</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TakeMeAway</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D3B9879D-2408-450B-B1C6-31243E0759B5</key>
+		<string>ssh://github.com/taylorobrien/TakeMeAway.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TakeMeAway.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D3B9879D-2408-450B-B1C6-31243E0759B5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/taylorobrien/TakeMeAway.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D3B9879D-2408-450B-B1C6-31243E0759B5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D3B9879D-2408-450B-B1C6-31243E0759B5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TakeMeAway</string>
+		</dict>
+	</array>
+</dict>
+</plist>
