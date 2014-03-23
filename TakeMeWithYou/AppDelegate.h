@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,AVAudioPlayerDelegate> {
+    AVAudioPlayer *audioPlayer1;
+}
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic)UIWindow *window;
 @end
+
+//@interface SocialSharingVC : UIViewController
+
+
+//@end

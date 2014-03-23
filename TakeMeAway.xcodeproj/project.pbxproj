@@ -11,16 +11,24 @@
 		B18685B618DE284900124E83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B518DE284900124E83 /* CoreGraphics.framework */; };
 		B18685B818DE284900124E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B718DE284900124E83 /* UIKit.framework */; };
 		B18685BE18DE284900124E83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18685BC18DE284900124E83 /* InfoPlist.strings */; };
-		B18685C018DE284900124E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685BF18DE284900124E83 /* main.m */; };
 		B18685C418DE284900124E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685C318DE284900124E83 /* AppDelegate.m */; };
-		B18685C718DE284900124E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18685C518DE284900124E83 /* Main.storyboard */; };
 		B18685CA18DE284900124E83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685C918DE284900124E83 /* ViewController.m */; };
 		B18685CC18DE284900124E83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18685CB18DE284900124E83 /* Images.xcassets */; };
 		B18685D318DE284900124E83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685D218DE284900124E83 /* XCTest.framework */; };
 		B18685D418DE284900124E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B318DE284900124E83 /* Foundation.framework */; };
 		B18685D518DE284900124E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685B718DE284900124E83 /* UIKit.framework */; };
-		B18685DD18DE284900124E83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18685DB18DE284900124E83 /* InfoPlist.strings */; };
-		B18685DF18DE284900124E83 /* TakeMeWithYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685DE18DE284900124E83 /* TakeMeWithYouTests.m */; };
+		B18685EA18DE365600124E83 /* Countries.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685E918DE365600124E83 /* Countries.m */; };
+		B18685EC18DE47F900124E83 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18685EB18DE47F900124E83 /* music.mp3 */; };
+		B18685F018DE61CE00124E83 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685EF18DE61CE00124E83 /* Social.framework */; };
+		B18685F318DE6A4A00124E83 /* MapOfPlaceVisitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685F218DE6A4A00124E83 /* MapOfPlaceVisitedViewController.m */; };
+		B1D9426318DE9C980049FEE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18685BF18DE284900124E83 /* main.m */; };
+		B1D9426818DEA1C80049FEE8 /* CountryIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D9426718DEA1C80049FEE8 /* CountryIDViewController.m */; };
+		B1D9426918DEB1F00049FEE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18685ED18DE481D00124E83 /* AVFoundation.framework */; };
+		B1D9426B18DED0840049FEE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D9426A18DED0840049FEE8 /* Main.storyboard */; };
+		B1D9426D18DEE42C0049FEE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D9426C18DEE42C0049FEE8 /* MapKit.framework */; };
+		B1D9427618DEEBF40049FEE8 /* MyAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D9427518DEEBF40049FEE8 /* MyAnnotations.m */; };
+		B1D9428418DF28C40049FEE8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D9428318DF28C40049FEE8 /* Icon.png */; };
+		B1D9428718DF32E30049FEE8 /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D9428618DF32E30049FEE8 /* TrendingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +42,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B18685B018DE284900124E83 /* TakeMeWithYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeMeWithYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18685B018DE284900124E83 /* TakeMeAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeMeAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18685B318DE284900124E83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B18685B518DE284900124E83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B18685B718DE284900124E83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B18685BB18DE284900124E83 /* TakeMeWithYou-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TakeMeWithYou-Info.plist"; sourceTree = "<group>"; };
+		B18685BB18DE284900124E83 /* TakeMeAway-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TakeMeAway-Info.plist"; sourceTree = "<group>"; };
 		B18685BD18DE284900124E83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B18685BF18DE284900124E83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B18685C118DE284900124E83 /* TakeMeWithYou-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TakeMeWithYou-Prefix.pch"; sourceTree = "<group>"; };
+		B18685C118DE284900124E83 /* TakeMeAway-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TakeMeAway-Prefix.pch"; sourceTree = "<group>"; };
 		B18685C218DE284900124E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B18685C318DE284900124E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B18685C618DE284900124E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B18685C818DE284900124E83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B18685C918DE284900124E83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B18685CB18DE284900124E83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B18685D118DE284900124E83 /* TakeMeWithYouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeMeWithYouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18685D118DE284900124E83 /* TakeMeAwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeMeAwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18685D218DE284900124E83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B18685DA18DE284900124E83 /* TakeMeWithYouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TakeMeWithYouTests-Info.plist"; sourceTree = "<group>"; };
-		B18685DC18DE284900124E83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B18685DE18DE284900124E83 /* TakeMeWithYouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeMeWithYouTests.m; sourceTree = "<group>"; };
+		B18685E818DE365600124E83 /* Countries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countries.h; sourceTree = "<group>"; };
+		B18685E918DE365600124E83 /* Countries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Countries.m; sourceTree = "<group>"; };
+		B18685EB18DE47F900124E83 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../music.mp3; sourceTree = "<group>"; };
+		B18685ED18DE481D00124E83 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B18685EF18DE61CE00124E83 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B18685F118DE6A4A00124E83 /* MapOfPlaceVisitedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOfPlaceVisitedViewController.h; sourceTree = "<group>"; };
+		B18685F218DE6A4A00124E83 /* MapOfPlaceVisitedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOfPlaceVisitedViewController.m; sourceTree = "<group>"; };
+		B1D9426618DEA1C80049FEE8 /* CountryIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryIDViewController.h; sourceTree = "<group>"; };
+		B1D9426718DEA1C80049FEE8 /* CountryIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryIDViewController.m; sourceTree = "<group>"; };
+		B1D9426A18DED0840049FEE8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B1D9426C18DEE42C0049FEE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1D9427418DEEBF40049FEE8 /* MyAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotations.h; sourceTree = "<group>"; };
+		B1D9427518DEEBF40049FEE8 /* MyAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotations.m; sourceTree = "<group>"; };
+		B1D9428318DF28C40049FEE8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B1D9428518DF32E30049FEE8 /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewController.h; sourceTree = "<group>"; };
+		B1D9428618DF32E30049FEE8 /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D9426D18DEE42C0049FEE8 /* MapKit.framework in Frameworks */,
+				B1D9426918DEB1F00049FEE8 /* AVFoundation.framework in Frameworks */,
+				B18685F018DE61CE00124E83 /* Social.framework in Frameworks */,
 				B18685B618DE284900124E83 /* CoreGraphics.framework in Frameworks */,
 				B18685B818DE284900124E83 /* UIKit.framework in Frameworks */,
 				B18685B418DE284900124E83 /* Foundation.framework in Frameworks */,
@@ -82,8 +105,8 @@
 		B18685A718DE284900124E83 = {
 			isa = PBXGroup;
 			children = (
-				B18685B918DE284900124E83 /* TakeMeWithYou */,
-				B18685D818DE284900124E83 /* TakeMeWithYouTests */,
+				B18685EB18DE47F900124E83 /* music.mp3 */,
+				B18685B918DE284900124E83 /* TakeMeAway */,
 				B18685B218DE284900124E83 /* Frameworks */,
 				B18685B118DE284900124E83 /* Products */,
 			);
@@ -92,8 +115,8 @@
 		B18685B118DE284900124E83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B18685B018DE284900124E83 /* TakeMeWithYou.app */,
-				B18685D118DE284900124E83 /* TakeMeWithYouTests.xctest */,
+				B18685B018DE284900124E83 /* TakeMeAway.app */,
+				B18685D118DE284900124E83 /* TakeMeAwayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +124,9 @@
 		B18685B218DE284900124E83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1D9426C18DEE42C0049FEE8 /* MapKit.framework */,
+				B18685EF18DE61CE00124E83 /* Social.framework */,
+				B18685ED18DE481D00124E83 /* AVFoundation.framework */,
 				B18685B318DE284900124E83 /* Foundation.framework */,
 				B18685B518DE284900124E83 /* CoreGraphics.framework */,
 				B18685B718DE284900124E83 /* UIKit.framework */,
@@ -109,45 +135,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B18685B918DE284900124E83 /* TakeMeWithYou */ = {
+		B18685B918DE284900124E83 /* TakeMeAway */ = {
 			isa = PBXGroup;
 			children = (
+				B1D9426A18DED0840049FEE8 /* Main.storyboard */,
+				B1D9428518DF32E30049FEE8 /* TrendingViewController.h */,
+				B1D9428618DF32E30049FEE8 /* TrendingViewController.m */,
+				B1D9426618DEA1C80049FEE8 /* CountryIDViewController.h */,
+				B1D9426718DEA1C80049FEE8 /* CountryIDViewController.m */,
 				B18685C218DE284900124E83 /* AppDelegate.h */,
 				B18685C318DE284900124E83 /* AppDelegate.m */,
-				B18685C518DE284900124E83 /* Main.storyboard */,
+				B18685F118DE6A4A00124E83 /* MapOfPlaceVisitedViewController.h */,
+				B18685F218DE6A4A00124E83 /* MapOfPlaceVisitedViewController.m */,
 				B18685C818DE284900124E83 /* ViewController.h */,
 				B18685C918DE284900124E83 /* ViewController.m */,
+				B1D9427418DEEBF40049FEE8 /* MyAnnotations.h */,
+				B1D9427518DEEBF40049FEE8 /* MyAnnotations.m */,
+				B18685E818DE365600124E83 /* Countries.h */,
+				B18685E918DE365600124E83 /* Countries.m */,
+				B1D9428318DF28C40049FEE8 /* Icon.png */,
 				B18685CB18DE284900124E83 /* Images.xcassets */,
 				B18685BA18DE284900124E83 /* Supporting Files */,
 			);
+			name = TakeMeAway;
 			path = TakeMeWithYou;
 			sourceTree = "<group>";
 		};
 		B18685BA18DE284900124E83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B18685BB18DE284900124E83 /* TakeMeWithYou-Info.plist */,
+				B18685BB18DE284900124E83 /* TakeMeAway-Info.plist */,
 				B18685BC18DE284900124E83 /* InfoPlist.strings */,
 				B18685BF18DE284900124E83 /* main.m */,
-				B18685C118DE284900124E83 /* TakeMeWithYou-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B18685D818DE284900124E83 /* TakeMeWithYouTests */ = {
-			isa = PBXGroup;
-			children = (
-				B18685DE18DE284900124E83 /* TakeMeWithYouTests.m */,
-				B18685D918DE284900124E83 /* Supporting Files */,
-			);
-			path = TakeMeWithYouTests;
-			sourceTree = "<group>";
-		};
-		B18685D918DE284900124E83 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B18685DA18DE284900124E83 /* TakeMeWithYouTests-Info.plist */,
-				B18685DB18DE284900124E83 /* InfoPlist.strings */,
+				B18685C118DE284900124E83 /* TakeMeAway-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B18685AF18DE284900124E83 /* TakeMeWithYou */ = {
+		B18685AF18DE284900124E83 /* TakeMeAway */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B18685E218DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYou" */;
+			buildConfigurationList = B18685E218DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeAway" */;
 			buildPhases = (
 				B18685AC18DE284900124E83 /* Sources */,
 				B18685AD18DE284900124E83 /* Frameworks */,
@@ -167,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = TakeMeWithYou;
+			name = TakeMeAway;
 			productName = TakeMeWithYou;
-			productReference = B18685B018DE284900124E83 /* TakeMeWithYou.app */;
+			productReference = B18685B018DE284900124E83 /* TakeMeAway.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B18685D018DE284900124E83 /* TakeMeWithYouTests */ = {
+		B18685D018DE284900124E83 /* TakeMeAwayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B18685E518DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYouTests" */;
+			buildConfigurationList = B18685E518DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeAwayTests" */;
 			buildPhases = (
 				B18685CD18DE284900124E83 /* Sources */,
 				B18685CE18DE284900124E83 /* Frameworks */,
@@ -185,9 +205,9 @@
 			dependencies = (
 				B18685D718DE284900124E83 /* PBXTargetDependency */,
 			);
-			name = TakeMeWithYouTests;
+			name = TakeMeAwayTests;
 			productName = TakeMeWithYouTests;
-			productReference = B18685D118DE284900124E83 /* TakeMeWithYouTests.xctest */;
+			productReference = B18685D118DE284900124E83 /* TakeMeAwayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B18685AB18DE284900124E83 /* Build configuration list for PBXProject "TakeMeWithYou" */;
+			buildConfigurationList = B18685AB18DE284900124E83 /* Build configuration list for PBXProject "TakeMeAway" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B18685AF18DE284900124E83 /* TakeMeWithYou */,
-				B18685D018DE284900124E83 /* TakeMeWithYouTests */,
+				B18685AF18DE284900124E83 /* TakeMeAway */,
+				B18685D018DE284900124E83 /* TakeMeAwayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,9 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18685EC18DE47F900124E83 /* music.mp3 in Resources */,
 				B18685CC18DE284900124E83 /* Images.xcassets in Resources */,
+				B1D9428418DF28C40049FEE8 /* Icon.png in Resources */,
 				B18685BE18DE284900124E83 /* InfoPlist.strings in Resources */,
-				B18685C718DE284900124E83 /* Main.storyboard in Resources */,
+				B1D9426B18DED0840049FEE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B18685DD18DE284900124E83 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +270,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D9426318DE9C980049FEE8 /* main.m in Sources */,
 				B18685CA18DE284900124E83 /* ViewController.m in Sources */,
 				B18685C418DE284900124E83 /* AppDelegate.m in Sources */,
-				B18685C018DE284900124E83 /* main.m in Sources */,
+				B1D9427618DEEBF40049FEE8 /* MyAnnotations.m in Sources */,
+				B18685EA18DE365600124E83 /* Countries.m in Sources */,
+				B1D9428718DF32E30049FEE8 /* TrendingViewController.m in Sources */,
+				B1D9426818DEA1C80049FEE8 /* CountryIDViewController.m in Sources */,
+				B18685F318DE6A4A00124E83 /* MapOfPlaceVisitedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B18685DF18DE284900124E83 /* TakeMeWithYouTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +293,7 @@
 /* Begin PBXTargetDependency section */
 		B18685D718DE284900124E83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B18685AF18DE284900124E83 /* TakeMeWithYou */;
+			target = B18685AF18DE284900124E83 /* TakeMeAway */;
 			targetProxy = B18685D618DE284900124E83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -278,22 +303,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B18685BD18DE284900124E83 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B18685C518DE284900124E83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B18685C618DE284900124E83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B18685DB18DE284900124E83 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B18685DC18DE284900124E83 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -376,10 +385,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeWithYou-Prefix.pch";
-				INFOPLIST_FILE = "TakeMeWithYou/TakeMeWithYou-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeAway-Prefix.pch";
+				INFOPLIST_FILE = "TakeMeWithYou/TakeMeAway-Info.plist";
+				PRODUCT_NAME = TakeMeAway;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +402,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeWithYou-Prefix.pch";
-				INFOPLIST_FILE = "TakeMeWithYou/TakeMeWithYou-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeAway-Prefix.pch";
+				INFOPLIST_FILE = "TakeMeWithYou/TakeMeAway-Info.plist";
+				PRODUCT_NAME = TakeMeAway;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,7 +430,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TakeMeWithYouTests/TakeMeWithYouTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TakeMeAwayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,7 +448,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TakeMeWithYou/TakeMeWithYou-Prefix.pch";
 				INFOPLIST_FILE = "TakeMeWithYouTests/TakeMeWithYouTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TakeMeAwayTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +457,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B18685AB18DE284900124E83 /* Build configuration list for PBXProject "TakeMeWithYou" */ = {
+		B18685AB18DE284900124E83 /* Build configuration list for PBXProject "TakeMeAway" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B18685E018DE284900124E83 /* Debug */,
@@ -449,21 +466,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B18685E218DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYou" */ = {
+		B18685E218DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeAway" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B18685E318DE284900124E83 /* Debug */,
 				B18685E418DE284900124E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B18685E518DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeWithYouTests" */ = {
+		B18685E518DE284900124E83 /* Build configuration list for PBXNativeTarget "TakeMeAwayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B18685E618DE284900124E83 /* Debug */,
 				B18685E718DE284900124E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
